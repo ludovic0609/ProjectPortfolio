@@ -1,0 +1,70 @@
+body{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.365));
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:white;
+}
+
+.container{
+    display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      width:100%;
+}
+
+.form-box{
+        width:380px;
+        height:450px;
+        background-color:black;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        opacity:0.8;
+        border-radius:2%;
+  }
+
+.form-box .user-icon{
+        font-size:130px;
+}
+
+.form-box .header-form{
+    margin-bottom:15px;
+}
+
+.form-box .header-form p {
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+  
+.form-box button{
+    margin-top:40px;
+    margin-bottom:10px;
+    width: 80%;
+}
+
+.form-box .message{
+    padding-top:25px;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+    font-size:16px;
+}
+
+.form-box .input-submit{
+    text-align: center;
+}
+
+.form-box input[type="email"]{
+    height: 30px;
+}
+
+.form-box input[type="password"]{
+    height: 30px;
+}
+
+
+
